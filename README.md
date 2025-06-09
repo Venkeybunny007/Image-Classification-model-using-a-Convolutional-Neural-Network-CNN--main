@@ -1,52 +1,68 @@
-# image-classification-model-using-a-Convolutional-Neural-Network-CNN-
-his project implements a Convolutional Neural Network (CNN) to classify images from the CIFAR-10 dataset.
-# Image Classification with CNN
+🧠 Image Classification Model Using a Convolutional Neural Network (CNN)
+This project demonstrates how to build and train a Convolutional Neural Network (CNN) using TensorFlow/Keras for image classification. The model is trained on the MNIST dataset — a benchmark dataset of handwritten digits (0–9).
 
-## Objective
-This project implements a Convolutional Neural Network (CNN) to classify images from the CIFAR-10 dataset.
+🎯 Project Objective
+Build a CNN from scratch using TensorFlow/Keras
 
-## Dataset
-- **CIFAR-10**: Contains 60,000 32x32 color images across 10 classes, with 6,000 images per class.
-- Classes: Airplane, Automobile, Bird, Cat, Deer, Dog, Frog, Horse, Ship, Truck.
+Train the model on the MNIST dataset
 
-## Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/CNN-Image-Classification.git
-Install dependencies:
+Monitor performance (accuracy/loss)
+
+Evaluate the model on test data
+
+Visualize training progress
+
+🛠️ Technologies Used
+Python 3
+
+TensorFlow / Keras
+
+NumPy
+
+Matplotlib
+
+📁 Dataset
+MNIST: 60,000 training images and 10,000 test images of handwritten digits (28x28 grayscale)
+
+Automatically downloaded via tensorflow.keras.datasets
+
+🚀 How to Run
+Clone this repository
+
 bash
 Copy
 Edit
-pip install tensorflow matplotlib
-Run the script:
+git clone https://github.com/yourusername/Image-Classification-model-using-a-Convolutional-Neural-Network-CNN--main.git
+cd Image-Classification-model-using-a-Convolutional-Neural-Network-CNN--main
+Install dependencies
+
 bash
 Copy
 Edit
-python cnn_cifar10.py
-Results
-Test Accuracy: ~<calculated value>.
-Visualizations:
-Training vs. Validation Accuracy:
-Sample Predictions: Include screenshots if applicable.
-License
-This project is open-source under the MIT License.
+pip install -r requirements.txt
+Run the app
 
-yaml
+bash
 Copy
 Edit
+python app.py
+📊 Output
+Model achieves ~98% test accuracy on MNIST
 
----
+Training and validation accuracy graphs plotted using Matplotlib
 
-### **Extending the Project**
-- Try using the MNIST dataset instead of CIFAR-10.
-- Experiment with deeper networks or different optimizers like `SGD`.
-- Save the model for future inference.
-- Add explanations for hyperparameters in the README.
+![Screenshot 113421](https://github.com/user-attachments/assets/1fca6431-de81-4b87-8a71-06b2bcf1f44e)
 
-Would you like help setting up files, additional visualization, or GitHub instructions?
-
+![Screenshot 113213](https://github.com/user-attachments/assets/c6492998-6b39-4715-b6ad-4d42377e3c0f)
 
 
 
+✅ Features
+End-to-end CNN training pipeline
 
+Clean modular code (data loading, model building, training, evaluation)
 
+Lightweight and easy to extend to other datasets (e.g., CIFAR-10)
+
+📌 Author
+Developed by [S VENKATESH] – as part of a machine learning image classification task using deep learning.
