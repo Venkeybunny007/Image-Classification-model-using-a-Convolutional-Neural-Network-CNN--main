@@ -1,4 +1,6 @@
 🧠 Image Classification Model Using a Convolutional Neural Network (CNN)
+
+
 This project demonstrates how to build and train a Convolutional Neural Network (CNN) using TensorFlow/Keras for image classification. The model is trained on the MNIST dataset — a benchmark dataset of handwritten digits (0–9).
 
 🎯 Project Objective
@@ -33,7 +35,11 @@ bash
 Copy
 Edit
 git clone https://github.com/yourusername/Image-Classification-model-using-a-Convolutional-Neural-Network-CNN--main.git
+
 cd Image-Classification-model-using-a-Convolutional-Neural-Network-CNN--main
+
+
+
 Install dependencies
 
 bash
@@ -46,6 +52,9 @@ bash
 Copy
 Edit
 python app.py
+
+
+
 📊 Output
 Model achieves ~98% test accuracy on MNIST
 
